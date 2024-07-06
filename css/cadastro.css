@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     margin: 0;
@@ -21,6 +22,7 @@ body {
     background-color: var(--colorThemeDark);
     color: var(--colorFont);
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #container-form {
@@ -69,6 +71,7 @@ label {
     color: var(--colorFont);
     font-size: 16px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 div.radio-container {
@@ -84,7 +87,16 @@ div.radio-container label {
     margin: 0 10px;
 }
 
-#span-cadastro {
+#cadastro-check-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#cadastro-check {
+    margin-left: 5px;
+    width: 30px;
+    height: 20px;
     margin-top: 10px;
 }
 

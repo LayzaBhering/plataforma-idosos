@@ -21,11 +21,23 @@ body {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     background-color: var(--colorTheme);
     height: 80px;
+}
+
+#a-img {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background: none;
+}
+
+#tv-img {
+    height: 40px;
+    display: flex;
 }
 
 nav {
@@ -150,4 +162,5 @@ a:hover {
     color: var(--colorContraste);
     background-color: var(--colorTheme02);
 }
+
 
